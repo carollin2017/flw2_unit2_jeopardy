@@ -17,6 +17,9 @@
 
 function renderScoringButtons() {
     // Add code here
+    $("#score").show();
+
+    
 }
 
 /* TODO: Program the following:
@@ -39,6 +42,8 @@ function renderScoringButtons() {
 */
 function subtractFromScore() {
     // Add code here
+    //currentQuentionValue = questionValues[];
+    return getCurrentScore() - ;
 }
 
 function addToScore() {
